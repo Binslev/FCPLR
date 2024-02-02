@@ -1,0 +1,297 @@
+<!--Last updated 01-02-2024 (DD-MM-YYYY)-->
+<Settings>
+	<Setting Id="Mission" Label="Split When Completing a Mission" State="true">
+		<Setting Id="mission1" Label="The Hunt" State="true"/>
+		<Setting Id="mission2" Label="Path to Oros (Middle of the Cave)" State="true"/>
+		<Setting Id="mission3" Label="Path to Oros (After skipping a cutscene)" State="true"/>
+		<Setting Id="mission4" Label="Deep Wounds" State="true"/>
+		<Setting Id="mission5" Label="Vision of Beasts" State="true"/>
+		<Setting Id="mission6" Label="Beast Master" State="true"/>
+		<Setting Id="mission7" Label="Attack of The Udam" State="true"/>
+		<Setting Id="mission8" Label="Mission 8" State="true"/>
+		<Setting Id="mission9" Label="Mission 9" State="true"/>
+		<Setting Id="mission10" Label="Mission 10" State="true"/>
+		<Setting Id="mission11" Label="Mission 11" State="true"/>
+		<Setting Id="mission12" Label="Mission 12" State="true"/>
+		<Setting Id="mission13" Label="Mission 13" State="true"/>
+		<Setting Id="mission14" Label="Mission 14" State="true"/>
+		<Setting Id="mission15" Label="Mission 15" State="true"/>
+		<Setting Id="mission16" Label="Mission 16" State="true"/>
+		<Setting Id="mission17" Label="Mission 17" State="true"/>
+		<Setting Id="mission18" Label="Mission 18" State="true"/>
+		<Setting Id="mission19" Label="Mission 19" State="true"/>
+		<Setting Id="mission20" Label="Mission 20" State="true"/>
+		<Setting Id="mission21" Label="Mission 21" State="true"/>
+		<Setting Id="mission22" Label="Mission 22" State="true"/>
+		<Setting Id="mission23" Label="Mission 23" State="true"/>
+		<Setting Id="mission24" Label="Mission 24" State="true"/>
+		<Setting Id="mission25" Label="Mission 25" State="true"/>
+		<Setting Id="mission26" Label="Mission 26" State="true"/>
+		<Setting Id="mission27" Label="Mission 27" State="true"/>
+		<Setting Id="mission28" Label="Mission 28" State="true"/>
+		<Setting Id="mission29" Label="Mission 29" State="true"/>
+		<Setting Id="mission30" Label="Mission 30" State="true"/>
+		<Setting Id="mission31" Label="Mission 31" State="true"/>
+		<Setting Id="mission32" Label="Mission 32" State="true"/>
+		<Setting Id="mission33" Label="Mission 33" State="true"/>
+		<Setting Id="mission34" Label="Mission 34" State="true"/>
+		<Setting Id="mission35" Label="Mission 35" State="true"/>
+		<Setting Id="mission36" Label="Mission 36" State="true"/>
+		<Setting Id="mission37" Label="Mission 37" State="true"/>
+		<Setting Id="mission38" Label="Mission 38" State="true"/>
+		<Setting Id="mission39" Label="Mission 39" State="true"/>
+		<Setting Id="mission40" Label="Mission 40" State="true"/>
+		<Setting Id="mission41" Label="Mission 41" State="true"/>
+		<Setting Id="mission42" Label="Mission 42" State="true"/>
+		<Setting Id="mission43" Label="Mission 43" State="true"/>
+		<Setting Id="mission44" Label="Mission 44" State="true"/>
+		<Setting Id="mission45" Label="Mission 45" State="true"/>
+		<Setting Id="mission46" Label="Mission 46" State="true"/>
+		<Setting Id="mission47" Label="Mission 47" State="true"/>
+		<Setting Id="mission48" Label="Mission 48" State="true"/>
+		<Setting Id="mission49" Label="Mission 49" State="true"/>
+		<Setting Id="mission50" Label="Mission 50" State="true"/>
+		<Setting Id="mission51" Label="Mission 51" State="true"/>
+		<Setting Id="mission52" Label="Mission 52" State="true"/>
+		<Setting Id="mission53" Label="Mission 53" State="true"/>
+		<Setting Id="mission54" Label="Mission 54" State="true"/>
+		<Setting Id="mission55" Label="Mission 55" State="true"/>
+		<Setting Id="mission56" Label="Mission 56" State="true"/>
+		<Setting Id="mission57" Label="Mission 57" State="true"/>
+		<Setting Id="mission58" Label="Mission 58" State="true"/>
+		<Setting Id="mission59" Label="Mission 59" State="true"/>
+	</Setting>
+	<Setting Id="Forts" Label="Split When Taking a Fort" State="true">
+		<Setting Id="DarwaFort" Label="Split when liberating Big Darwa Fort" State="true"/>
+		<Setting Id="FireScreamer" Label="Split when liberating Fire Screamer Fort" State="true"/>
+	</Setting>
+	<Setting Id="outpost" Label="Split When Conquering an Outpost" State="false">
+		<Setting Id="outpost1" Label="Outpost 1" State="true"/>
+		<Setting Id="outpost2" Label="Outpost 2" State="true"/>
+		<Setting Id="outpost3" Label="Outpost 3" State="true"/>
+		<Setting Id="outpost4" Label="Outpost 4" State="true"/>
+		<Setting Id="outpost5" Label="Outpost 5" State="true"/>
+		<Setting Id="outpost6" Label="Outpost 6" State="true"/>
+		<Setting Id="outpost7" Label="Outpost 7" State="true"/>
+		<Setting Id="outpost8" Label="Outpost 8" State="true"/>
+		<Setting Id="outpost9" Label="Outpost 9" State="true"/>
+		<Setting Id="outpost10" Label="Outpost 10" State="true"/>
+		<Setting Id="outpost11" Label="Outpost 11" State="true"/>
+		<Setting Id="outpost12" Label="Outpost 12" State="true"/>
+		<Setting Id="outpost13" Label="Outpost 13" State="true"/>
+		<Setting Id="outpost14" Label="Outpost 14" State="true"/>
+		<Setting Id="outpost15" Label="Outpost 15" State="true"/>
+	</Setting>
+	<Setting Id="bonfire" Label="Split When Lighting a Bonfire" State="false">
+		<Setting Id="bonfire1" Label="Bonfire 1" State="true"/>
+		<Setting Id="bonfire2" Label="Bonfire 2" State="true"/>
+		<Setting Id="bonfire3" Label="Bonfire 3" State="true"/>
+		<Setting Id="bonfire4" Label="Bonfire 4" State="true"/>
+		<Setting Id="bonfire5" Label="Bonfire 5" State="true"/>
+		<Setting Id="bonfire6" Label="Bonfire 6" State="true"/>
+		<Setting Id="bonfire7" Label="Bonfire 7" State="true"/>
+		<Setting Id="bonfire8" Label="Bonfire 8" State="true"/>
+		<Setting Id="bonfire9" Label="Bonfire 9" State="true"/>
+		<Setting Id="bonfire10" Label="Bonfire 10" State="true"/>
+		<Setting Id="bonfire11" Label="Bonfire 11" State="true"/>
+		<Setting Id="bonfire12" Label="Bonfire 12" State="true"/>
+		<Setting Id="bonfire13" Label="Bonfire 13" State="true"/>
+		<Setting Id="bonfire14" Label="Bonfire 14" State="true"/>
+		<Setting Id="bonfire15" Label="Bonfire 15" State="true"/>
+		<Setting Id="bonfire16" Label="Bonfire 16" State="true"/>
+	</Setting>
+	<Setting Id="SpiritTotem" Label="Split When Grabbing a Spirit Totem" State="false">
+		<Setting Id="SpiritTotem1" Label="Spirit Totem 1" State="true"/>
+		<Setting Id="SpiritTotem2" Label="Spirit Totem 2" State="true"/>
+		<Setting Id="SpiritTotem3" Label="Spirit Totem 3" State="true"/>
+		<Setting Id="SpiritTotem4" Label="Spirit Totem 4" State="true"/>
+		<Setting Id="SpiritTotem5" Label="Spirit Totem 5" State="true"/>
+		<Setting Id="SpiritTotem6" Label="Spirit Totem 6" State="true"/>
+		<Setting Id="SpiritTotem7" Label="Spirit Totem 7" State="true"/>
+		<Setting Id="SpiritTotem8" Label="Spirit Totem 8" State="true"/>
+		<Setting Id="SpiritTotem9" Label="Spirit Totem 9" State="true"/>
+		<Setting Id="SpiritTotem10" Label="Spirit Totem 10" State="true"/>
+		<Setting Id="SpiritTotem11" Label="Spirit Totem 11" State="true"/>
+		<Setting Id="SpiritTotem12" Label="Spirit Totem 12" State="true"/>
+	</Setting>
+	<Setting Id="CavePaintings" Label="Split when Grabbing a Cave Painting" State="false">
+		<Setting Id="CavePaintings1" Label="Cave Painting 1" State="true"/>
+		<Setting Id="CavePaintings2" Label="Cave Painting 2" State="true"/>
+		<Setting Id="CavePaintings3" Label="Cave Painting 3" State="true"/>
+		<Setting Id="CavePaintings4" Label="Cave Painting 4" State="true"/>
+		<Setting Id="CavePaintings5" Label="Cave Painting 5" State="true"/>
+		<Setting Id="CavePaintings6" Label="Cave Painting 6" State="true"/>
+		<Setting Id="CavePaintings7" Label="Cave Painting 7" State="true"/>
+		<Setting Id="CavePaintings8" Label="Cave Painting 8" State="true"/>
+		<Setting Id="CavePaintings9" Label="Cave Painting 9" State="true"/>
+		<Setting Id="CavePaintings10" Label="Cave Painting 10" State="true"/>
+		<Setting Id="CavePaintings11" Label="Cave Painting 11" State="true"/>
+		<Setting Id="CavePaintings12" Label="Cave Painting 12" State="true"/>
+		<Setting Id="CavePaintings13" Label="Cave Painting 13" State="true"/>
+		<Setting Id="CavePaintings14" Label="Cave Painting 14" State="true"/>
+		<Setting Id="CavePaintings15" Label="Cave Painting 15" State="true"/>
+		<Setting Id="CavePaintings16" Label="Cave Painting 16" State="true"/>
+		<Setting Id="CavePaintings17" Label="Cave Painting 17" State="true"/>
+		<Setting Id="CavePaintings18" Label="Cave Painting 18" State="true"/>
+		<Setting Id="CavePaintings19" Label="Cave Painting 19" State="true"/>
+		<Setting Id="CavePaintings20" Label="Cave Painting 20" State="true"/>
+		<Setting Id="CavePaintings21" Label="Cave Painting 21" State="true"/>
+		<Setting Id="CavePaintings22" Label="Cave Painting 22" State="true"/>
+	</Setting>
+	<Setting Id="WenjaBracelet" Label="Split when Grabbing a Wenja Bracelet" State="false">
+		<Setting Id="WenjaBracelet1" Label="Wenja Bracelet 1" State="true"/>
+		<Setting Id="WenjaBracelet2" Label="Wenja Bracelet 2" State="true"/>
+		<Setting Id="WenjaBracelet3" Label="Wenja Bracelet 3" State="true"/>
+		<Setting Id="WenjaBracelet4" Label="Wenja Bracelet 4" State="true"/>
+		<Setting Id="WenjaBracelet5" Label="Wenja Bracelet 5" State="true"/>
+		<Setting Id="WenjaBracelet6" Label="Wenja Bracelet 6" State="true"/>
+		<Setting Id="WenjaBracelet7" Label="Wenja Bracelet 7" State="true"/>
+		<Setting Id="WenjaBracelet8" Label="Wenja Bracelet 8" State="true"/>
+		<Setting Id="WenjaBracelet9" Label="Wenja Bracelet 9" State="true"/>
+		<Setting Id="WenjaBracelet10" Label="Wenja Bracelet 10" State="true"/>
+		<Setting Id="WenjaBracelet11" Label="Wenja Bracelet 11" State="true"/>
+		<Setting Id="WenjaBracelet12" Label="Wenja Bracelet 12" State="true"/>
+		<Setting Id="WenjaBracelet13" Label="Wenja Bracelet 13" State="true"/>
+		<Setting Id="WenjaBracelet14" Label="Wenja Bracelet 14" State="true"/>
+		<Setting Id="WenjaBracelet15" Label="Wenja Bracelet 15" State="true"/>
+		<Setting Id="WenjaBracelet16" Label="Wenja Bracelet 16" State="true"/>
+		<Setting Id="WenjaBracelet17" Label="Wenja Bracelet 17" State="true"/>
+		<Setting Id="WenjaBracelet18" Label="Wenja Bracelet 18" State="true"/>
+		<Setting Id="WenjaBracelet19" Label="Wenja Bracelet 19" State="true"/>
+		<Setting Id="WenjaBracelet20" Label="Wenja Bracelet 20" State="true"/>
+		<Setting Id="WenjaBracelet21" Label="Wenja Bracelet 21" State="true"/>
+		<Setting Id="WenjaBracelet22" Label="Wenja Bracelet 22" State="true"/>
+		<Setting Id="WenjaBracelet23" Label="Wenja Bracelet 23" State="true"/>
+		<Setting Id="WenjaBracelet24" Label="Wenja Bracelet 24" State="true"/>
+		<Setting Id="WenjaBracelet25" Label="Wenja Bracelet 25" State="true"/>
+	</Setting>
+	<Setting Id="IzilaMask" Label="Split when Destroying an Izila Mask" State="false">
+		<Setting Id="IzilaMask1" Label="Izila Mask 1" State="true"/>
+		<Setting Id="IzilaMask2" Label="Izila Mask 2" State="true"/>
+		<Setting Id="IzilaMask3" Label="Izila Mask 3" State="true"/>
+		<Setting Id="IzilaMask4" Label="Izila Mask 4" State="true"/>
+		<Setting Id="IzilaMask5" Label="Izila Mask 5" State="true"/>
+		<Setting Id="IzilaMask6" Label="Izila Mask 6" State="true"/>
+		<Setting Id="IzilaMask7" Label="Izila Mask 7" State="true"/>
+		<Setting Id="IzilaMask8" Label="Izila Mask 8" State="true"/>
+		<Setting Id="IzilaMask9" Label="Izila Mask 9" State="true"/>
+		<Setting Id="IzilaMask10" Label="Izila Mask 10" State="true"/>
+		<Setting Id="IzilaMask11" Label="Izila Mask 11" State="true"/>
+		<Setting Id="IzilaMask12" Label="Izila Mask 12" State="true"/>
+		<Setting Id="IzilaMask13" Label="Izila Mask 13" State="true"/>
+		<Setting Id="IzilaMask14" Label="Izila Mask 14" State="true"/>
+		<Setting Id="IzilaMask15" Label="Izila Mask 15" State="true"/>
+		<Setting Id="IzilaMask16" Label="Izila Mask 16" State="true"/>
+		<Setting Id="IzilaMask17" Label="Izila Mask 17" State="true"/>
+		<Setting Id="IzilaMask18" Label="Izila Mask 18" State="true"/>
+		<Setting Id="IzilaMask19" Label="Izila Mask 19" State="true"/>
+		<Setting Id="IzilaMask20" Label="Izila Mask 20" State="true"/>
+		<Setting Id="IzilaMask21" Label="Izila Mask 21" State="true"/>
+		<Setting Id="IzilaMask22" Label="Izila Mask 22" State="true"/>
+		<Setting Id="IzilaMask23" Label="Izila Mask 23" State="true"/>
+		<Setting Id="IzilaMask24" Label="Izila Mask 24" State="true"/>
+		<Setting Id="IzilaMask25" Label="Izila Mask 25" State="true"/>
+	</Setting>
+	<Setting Id="DayshaHand" Label="Split when Grabbing a Daysha Hand" State="false">
+		<Setting Id="DayshaHand1" Label="Daysha Hand 1" State="true"/>
+		<Setting Id="DayshaHand2" Label="Daysha Hand 2" State="true"/>
+		<Setting Id="DayshaHand3" Label="Daysha Hand 3" State="true"/>
+		<Setting Id="DayshaHand4" Label="Daysha Hand 4" State="true"/>
+		<Setting Id="DayshaHand5" Label="Daysha Hand 5" State="true"/>
+		<Setting Id="DayshaHand6" Label="Daysha Hand 6" State="true"/>
+		<Setting Id="DayshaHand7" Label="Daysha Hand 7" State="true"/>
+		<Setting Id="DayshaHand8" Label="Daysha Hand 8" State="true"/>
+		<Setting Id="DayshaHand9" Label="Daysha Hand 9" State="true"/>
+		<Setting Id="DayshaHand10" Label="Daysha Hand 10" State="true"/>
+		<Setting Id="DayshaHand11" Label="Daysha Hand 11" State="true"/>
+		<Setting Id="DayshaHand12" Label="Daysha Hand 12" State="true"/>
+		<Setting Id="DayshaHand13" Label="Daysha Hand 13" State="true"/>
+		<Setting Id="DayshaHand14" Label="Daysha Hand 14" State="true"/>
+		<Setting Id="DayshaHand15" Label="Daysha Hand 15" State="true"/>
+		<Setting Id="DayshaHand16" Label="Daysha Hand 16" State="true"/>
+		<Setting Id="DayshaHand17" Label="Daysha Hand 17" State="true"/>
+		<Setting Id="DayshaHand18" Label="Daysha Hand 18" State="true"/>
+		<Setting Id="DayshaHand19" Label="Daysha Hand 19" State="true"/>
+		<Setting Id="DayshaHand20" Label="Daysha Hand 20" State="true"/>
+		<Setting Id="DayshaHand21" Label="Daysha Hand 21" State="true"/>
+		<Setting Id="DayshaHand22" Label="Daysha Hand 22" State="true"/>
+		<Setting Id="DayshaHand23" Label="Daysha Hand 23" State="true"/>
+		<Setting Id="DayshaHand24" Label="Daysha Hand 24" State="true"/>
+		<Setting Id="DayshaHand25" Label="Daysha Hand 25" State="true"/>
+		<Setting Id="DayshaHand26" Label="Daysha Hand 26" State="true"/>
+		<Setting Id="DayshaHand27" Label="Daysha Hand 27" State="true"/>
+		<Setting Id="DayshaHand28" Label="Daysha Hand 28" State="true"/>
+		<Setting Id="DayshaHand29" Label="Daysha Hand 29" State="true"/>
+		<Setting Id="DayshaHand30" Label="Daysha Hand 30" State="true"/>
+		<Setting Id="DayshaHand31" Label="Daysha Hand 31" State="true"/>
+		<Setting Id="DayshaHand32" Label="Daysha Hand 32" State="true"/>
+		<Setting Id="DayshaHand33" Label="Daysha Hand 33" State="true"/>
+		<Setting Id="DayshaHand34" Label="Daysha Hand 34" State="true"/>
+		<Setting Id="DayshaHand35" Label="Daysha Hand 35" State="true"/>
+		<Setting Id="DayshaHand36" Label="Daysha Hand 36" State="true"/>
+		<Setting Id="DayshaHand37" Label="Daysha Hand 37" State="true"/>
+		<Setting Id="DayshaHand38" Label="Daysha Hand 38" State="true"/>
+		<Setting Id="DayshaHand39" Label="Daysha Hand 39" State="true"/>
+		<Setting Id="DayshaHand40" Label="Daysha Hand 40" State="true"/>
+		<Setting Id="DayshaHand41" Label="Daysha Hand 41" State="true"/>
+		<Setting Id="DayshaHand42" Label="Daysha Hand 42" State="true"/>
+		<Setting Id="DayshaHand43" Label="Daysha Hand 43" State="true"/>
+		<Setting Id="DayshaHand44" Label="Daysha Hand 44" State="true"/>
+		<Setting Id="DayshaHand45" Label="Daysha Hand 45" State="true"/>
+		<Setting Id="DayshaHand46" Label="Daysha Hand 46" State="true"/>
+		<Setting Id="DayshaHand47" Label="Daysha Hand 47" State="true"/>
+		<Setting Id="DayshaHand48" Label="Daysha Hand 48" State="true"/>
+		<Setting Id="DayshaHand49" Label="Daysha Hand 49" State="true"/>
+		<Setting Id="DayshaHand50" Label="Daysha Hand 50" State="true"/>
+		<Setting Id="DayshaHand51" Label="Daysha Hand 51" State="true"/>
+		<Setting Id="DayshaHand52" Label="Daysha Hand 52" State="true"/>
+		<Setting Id="DayshaHand53" Label="Daysha Hand 53" State="true"/>
+		<Setting Id="DayshaHand54" Label="Daysha Hand 54" State="true"/>
+		<Setting Id="DayshaHand55" Label="Daysha Hand 55" State="true"/>
+		<Setting Id="DayshaHand56" Label="Daysha Hand 56" State="true"/>
+		<Setting Id="DayshaHand57" Label="Daysha Hand 57" State="true"/>
+		<Setting Id="DayshaHand58" Label="Daysha Hand 58" State="true"/>
+		<Setting Id="DayshaHand59" Label="Daysha Hand 59" State="true"/>
+		<Setting Id="DayshaHand60" Label="Daysha Hand 60" State="true"/>
+		<Setting Id="DayshaHand61" Label="Daysha Hand 61" State="true"/>
+		<Setting Id="DayshaHand62" Label="Daysha Hand 62" State="true"/>
+		<Setting Id="DayshaHand63" Label="Daysha Hand 63" State="true"/>
+		<Setting Id="DayshaHand64" Label="Daysha Hand 64" State="true"/>
+		<Setting Id="DayshaHand65" Label="Daysha Hand 65" State="true"/>
+		<Setting Id="DayshaHand66" Label="Daysha Hand 66" State="true"/>
+		<Setting Id="DayshaHand67" Label="Daysha Hand 67" State="true"/>
+		<Setting Id="DayshaHand68" Label="Daysha Hand 68" State="true"/>
+		<Setting Id="DayshaHand69" Label="Daysha Hand 69" State="true"/>
+		<Setting Id="DayshaHand70" Label="Daysha Hand 70" State="true"/>
+		<Setting Id="DayshaHand71" Label="Daysha Hand 71" State="true"/>
+		<Setting Id="DayshaHand72" Label="Daysha Hand 72" State="true"/>
+		<Setting Id="DayshaHand73" Label="Daysha Hand 73" State="true"/>
+		<Setting Id="DayshaHand74" Label="Daysha Hand 74" State="true"/>
+		<Setting Id="DayshaHand75" Label="Daysha Hand 75" State="true"/>
+		<Setting Id="DayshaHand76" Label="Daysha Hand 76" State="true"/>
+		<Setting Id="DayshaHand77" Label="Daysha Hand 77" State="true"/>
+		<Setting Id="DayshaHand78" Label="Daysha Hand 78" State="true"/>
+		<Setting Id="DayshaHand79" Label="Daysha Hand 79" State="true"/>
+		<Setting Id="DayshaHand80" Label="Daysha Hand 80" State="true"/>
+		<Setting Id="DayshaHand81" Label="Daysha Hand 81" State="true"/>
+		<Setting Id="DayshaHand82" Label="Daysha Hand 82" State="true"/>
+		<Setting Id="DayshaHand83" Label="Daysha Hand 83" State="true"/>
+		<Setting Id="DayshaHand84" Label="Daysha Hand 84" State="true"/>
+		<Setting Id="DayshaHand85" Label="Daysha Hand 85" State="true"/>
+		<Setting Id="DayshaHand86" Label="Daysha Hand 86" State="true"/>
+		<Setting Id="DayshaHand87" Label="Daysha Hand 87" State="true"/>
+		<Setting Id="DayshaHand88" Label="Daysha Hand 88" State="true"/>
+		<Setting Id="DayshaHand89" Label="Daysha Hand 89" State="true"/>
+		<Setting Id="DayshaHand90" Label="Daysha Hand 90" State="true"/>
+		<Setting Id="DayshaHand91" Label="Daysha Hand 91" State="true"/>
+		<Setting Id="DayshaHand92" Label="Daysha Hand 92" State="true"/>
+		<Setting Id="DayshaHand93" Label="Daysha Hand 93" State="true"/>
+		<Setting Id="DayshaHand94" Label="Daysha Hand 94" State="true"/>
+		<Setting Id="DayshaHand95" Label="Daysha Hand 95" State="true"/>
+		<Setting Id="DayshaHand96" Label="Daysha Hand 96" State="true"/>
+		<Setting Id="DayshaHand97" Label="Daysha Hand 97" State="true"/>
+		<Setting Id="DayshaHand98" Label="Daysha Hand 98" State="true"/>
+		<Setting Id="DayshaHand99" Label="Daysha Hand 99" State="true"/>
+		<Setting Id="DayshaHand100" Label="Daysha Hand 100" State="true"/>
+	</Setting>
+</Settings>
