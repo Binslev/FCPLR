@@ -1,4 +1,4 @@
-<!--Last updated 01-02-2024 (DD-MM-YYYY)-->
+<!--Last updated 10-02-2024 (DD-MM-YYYY)-->
 <Settings>
 	<Setting Id="Mission" Label="Split When Completing a Mission" State="true">
 		<Setting Id="mission1" Label="The Hunt" State="true"/>
