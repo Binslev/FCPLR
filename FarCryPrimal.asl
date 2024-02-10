@@ -26,7 +26,7 @@ startup
 
         Assembly.Load(File.ReadAllBytes("Components/asl-help")).CreateInstance("Basic");
         vars.Helper.GameName = "Far Cry: Primal";
-        vars.Helper.Settings.CreateFromXml("Components/FCPrimal.Settings.xml");
+        vars.Helper.Settings.CreateFromXml("Components/FarCryPrimal.Settings.xml");
     }
 
 // Asks user to change to Real Time if LiveSplit is currently set to Game Time.
