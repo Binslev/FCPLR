@@ -1,6 +1,6 @@
 //Created by Vlad2D
-//Game Version 1.33
-//ASL last updated 02-02-2024 (DD-MM-YYYY)
+//Game Version 1.3.3
+//ASL last updated 10-02-2024 (DD-MM-YYYY)
 
 state("FCPrimal")
 {
@@ -26,7 +26,7 @@ startup
 
         Assembly.Load(File.ReadAllBytes("Components/asl-help")).CreateInstance("Basic");
         vars.Helper.GameName = "Far Cry: Primal";
-        vars.Helper.Settings.CreateFromXml("Components/FarCryPrimal.Settings.xml");
+        vars.Helper.Settings.CreateFromXml("Components/FCPrimal.Settings.xml");
     }
 
 // Asks user to change to Real Time if LiveSplit is currently set to Game Time.
