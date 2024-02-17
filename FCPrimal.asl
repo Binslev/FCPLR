@@ -31,7 +31,7 @@ startup
 
 // Asks user to change to Real Time if LiveSplit is currently set to Game Time.
 
-    if (timer.CurrentTimingMethod == TimingMethod.RealTime)
+    if (timer.CurrentTimingMethod == TimingMethod.GameTime)
     {
         var mbox = MessageBox.Show(
             "Far Cry Primal uses Real Time as timing method.\nWould you like to switch to it?",
