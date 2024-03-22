@@ -1,66 +1,72 @@
-//Created by Vlad2D
+//Created by Vlad2D and Binslev
 //Game Version 1.3.3
-//ASL last updated 17-02-2024 (DD-MM-YYYY)
+//ASL last updated 22-03-2024 (DD-MM-YYYY)
 
 state("FCPrimal")
 {
 	int missionchain : "FCPrimal.exe", 0x0325BA58, 0x110, 0x18;
-    int DarwaFort : "FCPrimal.exe", 0x0325BA58, 0x110, 0x450;
-    int FireScreamer : "FCPrimal.exe", 0x0325BA58, 0x110, 0x480;
-    int Outpost : "FCPrimal.exe", 0x0325BA58, 0x110, 0x60;
-    int Bonfire : "FCPrimal.exe", 0x0325BA58, 0x110, 0x318;
-    int SpiritTotem : "FCPrimal.exe", 0x0325BA58, 0x110, 0x510;
-    int CavePaintings : "FCPrimal.exe", 0x0325BA58, 0x110, 0x570;
-    int WenjaBracelet : "FCPrimal.exe", 0x0325BA58, 0x110, 0x528;
-    int IzilaMask : "FCPrimal.exe", 0x0325BA58, 0x110, 0x540;
-    int DayshaHand : "FCPrimal.exe", 0x0325BA58, 0x110, 0x558;
-    int Start : "FCPrimal.exe", 0x0325E500, 0x34;
-    int End : "FCPrimal.exe", 0x03265230, 0x170;
+    	int DarwaFort : "FCPrimal.exe", 0x0325BA58, 0x110, 0x450;
+    	int FireScreamer : "FCPrimal.exe", 0x0325BA58, 0x110, 0x480;
+    	int Outpost : "FCPrimal.exe", 0x0325BA58, 0x110, 0x60;
+    	int Bonfire : "FCPrimal.exe", 0x0325BA58, 0x110, 0x318;
+    	int SpiritTotem : "FCPrimal.exe", 0x0325BA58, 0x110, 0x510;
+    	int CavePaintings : "FCPrimal.exe", 0x0325BA58, 0x110, 0x570;
+    	int WenjaBracelet : "FCPrimal.exe", 0x0325BA58, 0x110, 0x528;
+    	int IzilaMask : "FCPrimal.exe", 0x0325BA58, 0x110, 0x540;
+    	int DayshaHand : "FCPrimal.exe", 0x0325BA58, 0x110, 0x558;
+    	int Start : "FCPrimal.exe", 0x0325E500, 0x34;
+    	int End : "FCPrimal.exe", 0x03265230, 0x170;
 	int Loading : "FCPrimal.exe", 0x03254248, 0x8, 0x48, 0x678, 0x40, 0x0, 0x18, 0x5C4; 
 }
 
 startup
 {
-    {
-    // Loads Settings.xml into Livesplit using "asl-help".
+//Creates CompletedMissions var
+vars.CompletedMissions = new HashSet<int>();
+    
+    	{
+    	// Loads Settings.xml into Livesplit using "asl-help".
 
-        Assembly.Load(File.ReadAllBytes("Components/asl-help")).CreateInstance("Basic");
-        vars.Helper.GameName = "Far Cry: Primal";
-        vars.Helper.Settings.CreateFromXml("Components/FCPrimal.Settings.xml");
-    }
+        	Assembly.Load(File.ReadAllBytes("Components/asl-help")).CreateInstance("Basic");
+        	vars.Helper.GameName = "Far Cry: Primal";
+        	vars.Helper.Settings.CreateFromXml("Components/FCPrimal.Settings.xml");
+    	}
 
-// Asks user to change to Real Time if LiveSplit is currently set to Game Time.
+    	{
+    	// Asks user to change to game time if LiveSplit is currently set to real time.
 
-    if (timer.CurrentTimingMethod == TimingMethod.GameTime)
-    {
-        var mbox = MessageBox.Show(
-            "Far Cry Primal uses Real Time as timing method.\nWould you like to switch to it?",
-            "LiveSplit | Far Cry Primal",
-            MessageBoxButtons.YesNo);
+	    	vars.Helper.AlertLoadless();
+    	}
+}
 
-        if (mbox == DialogResult.Yes)
-            timer.CurrentTimingMethod = TimingMethod.RealTime;
-    }
+init
+{
+//pauses the timer if the game closes or crashes.
 
-	vars.CompletedMissions = new HashSet<int>();
+    	timer.IsGameTimePaused = false;
+    	game.Exited += (s, e) => timer.IsGameTimePaused = true;
 }
 
 onStart
 {
+//clears the "completedmissions" variable
+
 	vars.CompletedMissions.Clear();
 }
 
 start
 {
-    return
+//autostarts the timer when creating a new game (does not work for reloading checkpoint)
+
+return
         current.Start == 0 && old.Start == 1
-            && current.Loading == 0 && current.missionchain == 0;
+        && current.Loading == 0 && current.missionchain == 0;
 }
 
 split
 {
 return
-    current.missionchain == old.missionchain + 1
+    	current.missionchain == old.missionchain + 1
         && current.missionchain > 0 && current.missionchain < 59
         && settings["mission" + current.missionchain] && vars.CompletedMissions.Add(current.missionchain)
     || old.DarwaFort == 0 && current.DarwaFort == 1
@@ -96,5 +102,5 @@ isLoading
 }
 
 //TODO:
-//Try finding Upgardes for village again, maybe messed up something
+//Try finding Upgrades for village again, maybe messed up something
 //Legendary Beasts side quests
