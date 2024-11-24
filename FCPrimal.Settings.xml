@@ -1,4 +1,4 @@
-<!--Last updated 10-02-2024 (DD-MM-YYYY)-->
+<!--Last updated 25-11-2024 (DD-MM-YYYY)-->
 <Settings>
 	<Setting Id="Mission" Label="Split When Completing a Mission" State="true">
 		<Setting Id="mission1" Label="The Hunt" State="true"/>
@@ -61,11 +61,11 @@
 		<Setting Id="mission58" Label="Mission 58" State="true"/>
 		<Setting Id="mission59" Label="Mission 59" State="true"/>
 	</Setting>
-	<Setting Id="Forts" Label="Split When Taking a Fort" State="true">
-		<Setting Id="DarwaFort" Label="Split when liberating Big Darwa Fort" State="true"/>
-		<Setting Id="FireScreamer" Label="Split when liberating Fire Screamer Fort" State="true"/>
+	<Setting Id="Forts" Label="Split When Claiming a Fort" State="true">
+		<Setting Id="DarwaFort" Label="Split when claiming Big Darwa Fort" State="true"/>
+		<Setting Id="FireScreamer" Label="Split when claiming Fire Screamer Fort" State="true"/>
 	</Setting>
-	<Setting Id="outpost" Label="Split When Conquering an Outpost" State="false">
+	<Setting Id="outpost" Label="Split When Claiming an Outpost" State="false">
 		<Setting Id="outpost1" Label="Outpost 1" State="true"/>
 		<Setting Id="outpost2" Label="Outpost 2" State="true"/>
 		<Setting Id="outpost3" Label="Outpost 3" State="true"/>
@@ -82,7 +82,7 @@
 		<Setting Id="outpost14" Label="Outpost 14" State="true"/>
 		<Setting Id="outpost15" Label="Outpost 15" State="true"/>
 	</Setting>
-	<Setting Id="bonfire" Label="Split When Lighting a Bonfire" State="false">
+	<Setting Id="bonfire" Label="Split When Claiming a Bonfire" State="false">
 		<Setting Id="bonfire1" Label="Bonfire 1" State="true"/>
 		<Setting Id="bonfire2" Label="Bonfire 2" State="true"/>
 		<Setting Id="bonfire3" Label="Bonfire 3" State="true"/>
@@ -100,7 +100,7 @@
 		<Setting Id="bonfire15" Label="Bonfire 15" State="true"/>
 		<Setting Id="bonfire16" Label="Bonfire 16" State="true"/>
 	</Setting>
-	<Setting Id="SpiritTotem" Label="Split When Grabbing a Spirit Totem" State="false">
+	<Setting Id="SpiritTotem" Label="Split When Placing a Spirit Totem" State="false">
 		<Setting Id="SpiritTotem1" Label="Spirit Totem 1" State="true"/>
 		<Setting Id="SpiritTotem2" Label="Spirit Totem 2" State="true"/>
 		<Setting Id="SpiritTotem3" Label="Spirit Totem 3" State="true"/>
@@ -114,7 +114,7 @@
 		<Setting Id="SpiritTotem11" Label="Spirit Totem 11" State="true"/>
 		<Setting Id="SpiritTotem12" Label="Spirit Totem 12" State="true"/>
 	</Setting>
-	<Setting Id="CavePaintings" Label="Split when Grabbing a Cave Painting" State="false">
+	<Setting Id="CavePaintings" Label="Split when Studying a Cave Painting" State="false">
 		<Setting Id="CavePaintings1" Label="Cave Painting 1" State="true"/>
 		<Setting Id="CavePaintings2" Label="Cave Painting 2" State="true"/>
 		<Setting Id="CavePaintings3" Label="Cave Painting 3" State="true"/>
@@ -138,7 +138,7 @@
 		<Setting Id="CavePaintings21" Label="Cave Painting 21" State="true"/>
 		<Setting Id="CavePaintings22" Label="Cave Painting 22" State="true"/>
 	</Setting>
-	<Setting Id="WenjaBracelet" Label="Split when Grabbing a Wenja Bracelet" State="false">
+	<Setting Id="WenjaBracelet" Label="Split when Taking a Wenja Bracelet" State="false">
 		<Setting Id="WenjaBracelet1" Label="Wenja Bracelet 1" State="true"/>
 		<Setting Id="WenjaBracelet2" Label="Wenja Bracelet 2" State="true"/>
 		<Setting Id="WenjaBracelet3" Label="Wenja Bracelet 3" State="true"/>
@@ -192,7 +192,7 @@
 		<Setting Id="IzilaMask24" Label="Izila Mask 24" State="true"/>
 		<Setting Id="IzilaMask25" Label="Izila Mask 25" State="true"/>
 	</Setting>
-	<Setting Id="DayshaHand" Label="Split when Grabbing a Daysha Hand" State="false">
+	<Setting Id="DayshaHand" Label="Split when Taking a Daysha Hand" State="false">
 		<Setting Id="DayshaHand1" Label="Daysha Hand 1" State="true"/>
 		<Setting Id="DayshaHand2" Label="Daysha Hand 2" State="true"/>
 		<Setting Id="DayshaHand3" Label="Daysha Hand 3" State="true"/>
