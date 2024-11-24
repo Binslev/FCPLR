@@ -1,6 +1,6 @@
 //Created by Vlad2D and Binslev
 //Game Version 1.3.3
-//ASL last updated 22-03-2024 (DD-MM-YYYY)
+//ASL last updated 25-11-2024 (DD-MM-YYYY)
 
 state("FCPrimal")
 {
@@ -67,32 +67,32 @@ split
 {
 return
     	current.missionchain == old.missionchain + 1
-        && current.missionchain > 0 && current.missionchain < 59
+        && current.missionchain > 0 && old.missionchain < 59
         && settings["mission" + current.missionchain] && vars.CompletedMissions.Add(current.missionchain)
     || old.DarwaFort == 0 && current.DarwaFort == 1
         && settings["DarwaFort"] && current.Loading == 0
     || old.FireScreamer == 0 && current.FireScreamer == 1
         && settings["FireScreamer"] && current.Loading == 0
     || current.Outpost == old.Outpost + 1
-        && current.Outpost > 0 && current.Outpost < 15
+        && current.Outpost > 0 && old.Outpost < 15
         && settings["outpost" + current.Outpost] && current.Loading == 0
     || current.Bonfire == old.Bonfire + 1
-        && current.Bonfire > 0 && current.Bonfire < 16
+        && current.Bonfire > 0 && old.Bonfire < 16
         && settings["bonfire" + current.Bonfire] && current.Loading == 0
     || current.SpiritTotem == old.SpiritTotem + 1
-        && current.SpiritTotem > 0 && current.SpiritTotem < 12
+        && current.SpiritTotem > 0 && old.SpiritTotem < 12
         && settings["SpiritTotem" + current.SpiritTotem] && current.Loading == 0
     || current.CavePaintings == old.CavePaintings + 1
-        && current.CavePaintings > 0 && current.CavePaintings < 22
+        && current.CavePaintings > 0 && old.CavePaintings < 22
         && settings["CavePaintings" + current.CavePaintings] && current.Loading == 0
     || current.WenjaBracelet == old.WenjaBracelet + 1
-        && current.WenjaBracelet > 0 && current.WenjaBracelet < 25
+        && current.WenjaBracelet > 0 && old.WenjaBracelet < 25
         && settings["WenjaBracelet" + current.WenjaBracelet] && current.Loading == 0
     || current.IzilaMask == old.IzilaMask + 1
-        && current.IzilaMask > 0 && current.IzilaMask < 25
+        && current.IzilaMask > 0 && old.IzilaMask < 25
         && settings["IzilaMask" + current.IzilaMask] && current.Loading == 0
     || current.DayshaHand == old.DayshaHand + 1
-        && current.DayshaHand > 0 && current.DayshaHand < 100
+        && current.DayshaHand > 0 && old.DayshaHand < 100
         && settings["DayshaHand" + current.DayshaHand] && current.Loading == 0;
 }
 
@@ -103,4 +103,4 @@ isLoading
 
 //TODO:
 //Try finding Upgrades for village again, maybe messed up something
-//Legendary Beasts side quests
+//Great Beast Hunts
