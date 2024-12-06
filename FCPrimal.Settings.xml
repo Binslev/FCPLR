@@ -294,4 +294,6 @@
 		<Setting Id="DayshaHand99" Label="Daysha Hand 99" State="true"/>
 		<Setting Id="DayshaHand100" Label="Daysha Hand 100" State="true"/>
 	</Setting>
+	<Setting Id="SlowMotion" Label="Split when Slow Motion Effect Is Activated" State="false">
+	</Setting>
 </Settings>
