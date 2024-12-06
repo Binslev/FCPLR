@@ -16,7 +16,8 @@ state("FCPrimal")
     	int DayshaHand : "FCPrimal.exe", 0x0325BA58, 0x110, 0x558;
     	int Start : "FCPrimal.exe", 0x0325E500, 0x34;
     	int End : "FCPrimal.exe", 0x03265230, 0x170;
-	int Loading : "FCPrimal.exe", 0x03254248, 0x8, 0x48, 0x678, 0x40, 0x0, 0x18, 0x5C4; 
+	int Loading : "FCPrimal.exe", 0x03254248, 0x8, 0x48, 0x678, 0x40, 0x0, 0x18, 0x5C4;
+	int SlowMotion : "FCPrimal.exe", 0x03286570, 0x30, 0x58, 0x50, 0x18, 0x68, 0xB8;
 }
 
 startup
@@ -93,7 +94,9 @@ return
         && settings["IzilaMask" + current.IzilaMask] && current.Loading == 0
     || current.DayshaHand == old.DayshaHand + 1
         && current.DayshaHand > 0 && old.DayshaHand < 100
-        && settings["DayshaHand" + current.DayshaHand] && current.Loading == 0;
+        && settings["DayshaHand" + current.DayshaHand] && current.Loading == 0
+    || current.SlowMotion == 1 && old.SlowMotion == 0
+	&& settings["SlowMotion"] && current.Loading == 0;
 }
 
 isLoading
